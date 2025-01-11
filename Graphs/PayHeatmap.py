@@ -3,7 +3,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 
-rate_puf = pd.read_csv('Data/ConcatedData/RATE_PUF.csv')
+rate_puf = pd.read_csv('DataScience2025/Files/Rate_PUF.csv')
 us_states = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
 
 us_states = us_states[us_states['iso_a2'] == 'US']
