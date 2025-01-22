@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the dataset (replace 'your_file_path.csv' with the path to your CSV file)
-file_path = 'acs2015_census_tract_data.csv'
+file_path = 'Files/incomebystate.csv'
 data = pd.read_csv(file_path)
 
 # Dictionary to map full state names to their postal abbreviations
